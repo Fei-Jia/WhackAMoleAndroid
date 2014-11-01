@@ -11,22 +11,6 @@ public class PerLevelParameters {
 	public void setLevel(int lvl)
 	{
 		level=lvl;
-		// set per level mole above ground parameters
-		//if (MoleAboveTMin>=100)
-			//MoleAboveTMin=1600-100*level;  // Mole appears for shorter periods
-		//else{}
-		//if (MoleAboveTRange<=MoleAboveTMin*0.9)
-			//MoleAboveTRange=50*level;  // Range becomes more erratic, this gets harder
-		//else
-			//MoleAboveTRange=(int) (MoleAboveTMin*0.9);	
-		// set per level mole below time parameters
-		//if (MoleBelowTMin>=500)
-			
-		//else{}
-		
-			
-		//else
-			//MoleBelowTRange=(int) (MoleBelowTMin*0.9);
 	}
 	public int MoleAboveTRangeGet ()
 	{

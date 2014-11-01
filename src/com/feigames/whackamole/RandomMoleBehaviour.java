@@ -12,18 +12,6 @@ public class RandomMoleBehaviour {
 		//MoleBelowTime = 2000;
 	}
 	
-	//public void setRandomAboveTime(int AboveRange, int AboveMin)
-	//{
-		//Random rand1 = new Random();
-		//MoleAboveTime = rand1.nextInt(AboveRange)+AboveMin;
-	//}
-	
-	//public void setRandomBelowTime(int BelowRange, int BelowMin)
-	//{
-		//Random rand2 = new Random();
-		//MoleAboveTime = rand2.nextInt(BelowRange)+BelowMin;
-	//}
-	
 	public int GetAboveT(int AboveRange, int AboveMin)
 	{
 		Random rand1 = new Random();

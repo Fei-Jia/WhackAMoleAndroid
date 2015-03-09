@@ -98,18 +98,6 @@ public class WhackAMoleGame extends ActionBarActivity {
 					ereaseMoleS(MolePOSe);
 				}}
 
-	
-	//public void displaySCandLvL(){  // Method to display score and current level
-		//final Handler handlerSc = new Handler();
-		//handlerSc.postDelayed(new Runnable() {public void run() {
-		//TextView ScoreDIS = (TextView) findViewById(R.id.ScoreView);
-		//ScoreDIS.setText(CurScore);
-		//TextView LvLDIS = (TextView) findViewById(R.id.LeveLView);
-		//LvLDIS.setText(CurLvL);
-		//}
-		//}, 10);
-	//}
-	
 	public void displayMoleS(ImageButton MButton){
 		MButton.setBackgroundResource(R.drawable.mole_pic);
 	}
